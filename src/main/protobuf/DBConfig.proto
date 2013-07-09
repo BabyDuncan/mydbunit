@@ -1,0 +1,9 @@
+package dbunit;
+option java_package = "com.babyduncan.mydbunit.dbunit.model";
+option java_outer_classname = "DBUnit";
+
+message Config {
+    required string connectionUrl = 1;
+    required string username = 2;
+    required string password = 3;
+}
